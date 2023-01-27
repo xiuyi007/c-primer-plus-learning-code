@@ -1,0 +1,5 @@
+﻿  acount.cpp
+D:\Doc\Code\C++\c++_primer_plus_vs\chapter10_1\chapter10_1\acount.cpp(39,10): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  源.cpp
+  正在生成代码...
+  chapter10_1.vcxproj -> D:\Doc\Code\C++\c++_primer_plus_vs\chapter10_1\x64\Debug\chapter10_1.exe
