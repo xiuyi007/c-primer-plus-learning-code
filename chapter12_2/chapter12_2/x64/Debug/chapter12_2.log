@@ -1,0 +1,4 @@
+﻿  String.cpp
+D:\Doc\Code\C++\c++_primer_plus_vs\chapter12_2\chapter12_2\String.cpp(47,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Doc\Code\C++\c++_primer_plus_vs\chapter12_2\chapter12_2\String.cpp(83,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  chapter12_2.vcxproj -> D:\Doc\Code\C++\c++_primer_plus_vs\chapter12_2\x64\Debug\chapter12_2.exe
