@@ -21,3 +21,30 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const baseDMA& rhd);
 	void View() const;
 };
+
+class lacksDMA :public dmaABC
+{
+public:
+	lacksDMA(const char* s1 = "null", const char* s2 = "haha", int r = 0);
+	lacksDMA(const lacksDMA& ojb);
+	lacksDMA& operator=(const lacksDMA& obj);
+	friend std::ostream& operator<<(std::ostream& os, const lacksDMA& rhd);
+	void View() const;
+
+private:
+	enum { COL_LEN = 40 };
+	char color[COL_LEN];
+};
+
+class hasDMA :public dmaABC
+{
+public:
+	hasDMA(const char* s1 = "null", const char* s2 = "haha", int r = 0);
+	~hasDMA();
+	hasDMA(const hasDMA& obj);
+	hasDMA& operator=(const hasDMA& rhd);
+	friend std::ostream& operator<<(std::ostream& os, const hasDMA& rhd);
+	void View() const;
+private:
+	char* style;
+};
