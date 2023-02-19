@@ -34,6 +34,7 @@ public:
 	void GetBottles();
 	const std::string& Label() const;
 	int sum() const;
+	void Show() const;
 };
 
 

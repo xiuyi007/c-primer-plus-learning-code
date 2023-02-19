@@ -26,7 +26,7 @@ void Wine::GetBottles()
 	{
 		cout << "Enter year: ";
 		std::cin >> list[i];
-		cout << "\nEnter bottles for that year: ";
+		cout << "Enter bottles for that year: ";
 		std::cin >> l[i];
 	}
 	a.setFirst(list);
@@ -41,4 +41,14 @@ const std::string& Wine::Label() const
 int Wine::sum() const
 {
 	return a.second().sum();
+}
+
+void Wine::Show() const
+{
+	std::cout << "Wine: " << label << std::endl;
+	std::cout << "      Year    " << "Bottles" << std::endl;
+	for (int i = 0; i < year; i++)
+	{
+		std::cout << "    " << a.first()[i] << "    " << a.second()[i] << std::endl;
+	}
 }
